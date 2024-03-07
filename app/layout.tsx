@@ -7,6 +7,9 @@ import './globals.css'
 export const metadata = {
     title: 'Bernardo Schiavi Psicologo',
     description: 'Licenciado en Psicologia Bernardo Schiavi, Atencion presencial y online',
+    alternates: {
+        canonical: 'https://psibernardoschiavi.vercel.app/'
+    }
 }
 
 export default function RootLayout({
