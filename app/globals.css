@@ -181,7 +181,7 @@ main {
       align-items: center;
       flex-direction: column;
       text-align: center;
-      row-gap: 35px;
+      row-gap: 15px;
   }
 
   .ifm {

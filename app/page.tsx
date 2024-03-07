@@ -29,7 +29,7 @@ export default function Home() {
 
             {/* SECCION UBICACION */}
             <section className="ubicacion" id="ubicacion">
-                <div className="direccion" style={{ padding: '22px 0px'}}>
+                <div className="direccion" style={{ padding: '10px 0px'}}>
                     <h2 className="title">Ubicación</h2>
                     <strong><p>Calle 64 e/ 1 y 115 <br /> Ciudad de La Plata, Buenos Aires.</p></strong>
                 </div>
