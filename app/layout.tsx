@@ -1,0 +1,28 @@
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
+import "bootstrap/dist/css/bootstrap.min.css";
+import './globals.css'
+
+
+export const metadata = {
+    title: 'Bernardo Schiavi Psicologo',
+    description: 'Licenciado en Psicologia Bernardo Schiavi, Atencion presencial y online',
+}
+
+export default function RootLayout({
+    children,
+}: {
+    children: React.ReactNode
+}) {
+    return (
+        <html lang="es">
+            <body>
+                <Navbar />
+                <main>
+                    {children}
+                </main>
+                <Footer />
+            </body>
+        </html>
+    )
+}
