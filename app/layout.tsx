@@ -9,6 +9,9 @@ export const metadata = {
     description: 'Licenciado en Psicologia Bernardo Schiavi, Atencion presencial y online',
     alternates: {
         canonical: 'https://psibernardoschiavi.vercel.app/'
+    },
+    verification: {
+        google: "o6rpXZmzbGj4Aex5Jm54PUxApjgxs-h9UhQl6W0_L_A"
     }
 }
 
