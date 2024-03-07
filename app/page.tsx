@@ -2,6 +2,11 @@ import Image from "next/image";
 import ContactForm from '@/components/ContactForm'
 import Whatsapp from '@/components/Whatsapp'
 
+export const metadata = {
+    title: 'Bernardo Schiavi Psicologo',
+    description: 'Licenciado en Psicologia Bernardo Schiavi, Atencion terapia psicologica presencial y online',
+}
+
 export default function Home() {
 
     return (
