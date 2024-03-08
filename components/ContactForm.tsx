@@ -38,7 +38,6 @@ function ContactForm() {
                     <button type="submit" disabled={state.submitting} className="btn btn-success btn-lg mt-3">Enviar</button>
                 </div>
             </div>
-
         </form>
     );
 }
