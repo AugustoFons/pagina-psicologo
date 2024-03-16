@@ -18,7 +18,7 @@ export default function Home() {
                 </div>
                 <div className="items">
                     <ul className="lista">
-                        <li> <p> <Image src='/atencion.png' width={50} height={50} alt="terapia online"/> Atención Online para pacientes en el exterior</p> </li>
+                        <li> <p> <Image src='/atencion.png' width={50} height={50} alt="terapia online"/> Atención Online para pacientes en todo el mundo</p> </li>
                         <li> <p> <Image src='/sesion.png' width={50} height={50} alt="atencion Presencial Online La Plata"/> Atención Presencial en la Ciudad de La Plata</p> </li>
                         <li> <p> <Image src='/Psycologist.png' width={50} height={50} alt="Adolescentes jovenes y adultos"/> Atención Clínica de Adolescentes, Jóvenes y Adultos</p> </li>
                         <li><p><Image src='/Book.png' width={50} height={50} alt="universidad de la plata"/>Egresado de la UNLP</p></li>
