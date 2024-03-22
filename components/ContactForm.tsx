@@ -35,6 +35,12 @@ function ContactForm(){
                         country={'ar'}
                         value={phone}
                         onChange={(value) => setPhone(value)}
+                        inputProps={{
+                            name: 'phone',
+                            required: true,
+                            autoComplete: 'verify'
+                        }}
+                        
                     />
                 </div>
             </div>
