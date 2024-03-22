@@ -1,12 +1,17 @@
 'use client'
-
+import React, { useState } from "react"; 
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 import { useForm } from '@formspree/react';
-function ContactForm() {
+
+function ContactForm(){
+    const [phone, setPhone] = useState("");
+
     const [state, handleSubmit] = useForm("mwkzqwqo");
     if (state.succeeded) {
         return <p className="txtctc mt-3 font-extrabold">¡Gracias por contactarme!</p>;
     }
-
+    
     return (
         <form id="form" className="mb-5" onSubmit={handleSubmit}>
             <div className="row control-group">
@@ -24,7 +29,13 @@ function ContactForm() {
             <div className="row control-group">
                 <div className="form-group col-xs-12 floating-label-form-group font-form ">
                     <label>Número de teléfono</label>
-                    <input type="tel" className="form-control" placeholder="(Código País) (Código Ciudad) (Número)" id="phone" name="phone" />
+                    <input type="tel" className="form-control" id="phone" name="phone" value={`+${phone}`} hidden />
+                <PhoneInput
+                        placeholder="Ingrese su número de teléfono"
+                        country={'ar'}
+                        value={phone}
+                        onChange={(value) => setPhone(value)}
+                    />
                 </div>
             </div>
             <div className="row control-group">

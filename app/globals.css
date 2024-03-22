@@ -58,6 +58,8 @@ main {
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   background-size: cover;
+  padding-bottom: 60px;
+
 }
 
 .main-top::before {
@@ -333,7 +335,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     min-height: 650px;
-
+    padding-bottom: 10px;
   }
 
   .descripcion {
