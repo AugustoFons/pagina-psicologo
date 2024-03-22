@@ -24,7 +24,7 @@ function ContactForm() {
             <div className="row control-group">
                 <div className="form-group col-xs-12 floating-label-form-group font-form ">
                     <label>Número de teléfono</label>
-                    <input type="tel" className="form-control" placeholder="Ingrese su número de teléfono" id="phone" name="phone" />
+                    <input type="tel" className="form-control" placeholder="(Código País) (Código Ciudad) (Número)" id="phone" name="phone" />
                 </div>
             </div>
             <div className="row control-group">
