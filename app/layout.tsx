@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import GoogleTagManager from '@magicul/next-google-tag-manager';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './globals.css'
 
@@ -23,6 +24,7 @@ export default function RootLayout({
     return (
         <html lang="es">
             <body>
+                <GoogleTagManager id="AW-10907606786" />
                 <Navbar />
                 <main>
                     {children}
