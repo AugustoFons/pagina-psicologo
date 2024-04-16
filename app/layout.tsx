@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import { GoogleTag } from '@/components/GoogleTag'
+import { GoogleAdsense } from '@/components/GoogleAdsense'
 import "bootstrap/dist/css/bootstrap.min.css";
 import './globals.css'
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <html lang="es">
             <body>
                 <GoogleTag />
+                <GoogleAdsense />
                 <Navbar />
                 <main>
                     {children}
