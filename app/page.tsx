@@ -5,6 +5,7 @@ import Whatsapp from '@/components/Whatsapp'
 export const metadata = {
     title: 'Psicólogo Bernardo Schiavi Psicologo',
     description: 'Licenciado en Psicologia Bernardo Schiavi, Atencion terapia psicologica presencial y online',
+    googleAdsScript: '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8559809714530247"crossorigin="anonymous"></script>'
 }
 
 export default function Home() {
